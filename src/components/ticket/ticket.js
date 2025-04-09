@@ -39,7 +39,7 @@ const Ticket = ({ ticket }) => {
             </div>
             <div className={classes['ticket-card_info']}>
               <span className={classes['ticket-card_info-header']}>
-                {segment.stops.length === 0 && '0 ПЕРЕСАДОК'}
+                {segment.stops.length === 0 && 'БЕЗ ПЕРЕСАДОК'}
                 {segment.stops.length === 1 && `${segment.stops.length} ПЕРЕСАДКА`}
                 {segment.stops.length > 1 && segment.stops.length <= 3 && `${segment.stops.length} ПЕРЕСАДКИ`}
                 {segment.stops.length > 3 && `${segment.stops.length} ПЕРЕСАДОК`}
