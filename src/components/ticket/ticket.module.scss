@@ -1,0 +1,48 @@
+.ticket-card {
+    @media (min-width: 502px) and (max-width: 768px) {
+        width: calc(100% - 40px);
+    }
+    display: flex;
+    flex-direction: column;
+    width: 502px;
+    height: 144px;
+    row-gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0, .1);
+    &_header {
+        font-size: 24px; 
+        color: #2196F3;
+        height: 36px;
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+        .span {
+            min-width: 150px;
+        }
+    }
+    &_body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+        
+    }
+    &_main-info {
+        display: flex;
+        justify-content: space-between;
+        height: 39px;
+    }
+
+    &_info {
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        min-width: 140px;
+        &-header {
+            color: #A0B0B9;
+            font-size: 12px; 
+        }
+    }
+}
