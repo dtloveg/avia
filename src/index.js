@@ -1,8 +1,6 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
-// import { Online, Offline } from 'react-detect-offline'
-// import { Alert } from 'antd'
 
 import store from './store'
 import App from './components/app'
