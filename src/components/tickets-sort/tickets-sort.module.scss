@@ -1,29 +1,28 @@
 .sorted {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    &_button {
-        width: 180.3px;
-        height: 50px;
-        background-color: #FFFFFF;
-        border: 1px solid #DFE5EC;
-        cursor: pointer;
-        &:active {
-            background-color: #2196F3;
-        }
-        &__first {
-            border-radius: 5px 0 0 5px;
-        }
-        &__last {
-            border-radius: 0 5px 5px 0;
-        }
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  &_button {
+    width: 180.3px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe5ec;
+    cursor: pointer;
+    &:active {
+      background-color: #2196f3;
     }
- 
+    &__first {
+      border-radius: 5px 0 0 5px;
+    }
+    &__last {
+      border-radius: 0 5px 5px 0;
+    }
+  }
 }
 .selected {
-    background-color: #2196F3;
-    color: #FFFFFF; 
-    border: 1px solid #2196F3; 
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 1px solid #2196f3;
 }

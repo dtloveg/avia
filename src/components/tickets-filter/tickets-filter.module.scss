@@ -1,83 +1,80 @@
 .transfers {
-    @media (max-width: 768px) {
-        border: none;
-        padding: 5px;
-        border-radius: 5px;
-        position: absolute;
-        top: -40px;
-        left: 21px;
-      }
-    display: flex;
-    position: static;
-    padding: 10px 20px;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
+  @media (max-width: 768px) {
     border: none;
+    padding: 5px;
     border-radius: 5px;
-    margin: 0;
-    z-index: 200;
-  
-    &_legend {
-      @media (max-width: 768px) {
-        display: none; 
-      }
-      float: left;
-      width: 100%;
-      padding: 10px 0;
-      font-weight: 600;
-      font-size: 12px;
-    }
-  
-    &_list {
-        @media (max-width: 768px) {
-            display: none; 
-          }
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      display: block; 
-  
-      &.visible {
-        display: block; 
-        z-index: 200;
-      }
-  
-    }
-  
-    &_button {
-      @media (min-width: 768px) {
-        display: none; 
-      }
-      border: none;
-      cursor: pointer;
-      background-color: #FFFFFF;
-      position: relative;
-      &:after {
-        content: ' ▼';
-      }
-    }
+    position: absolute;
+    top: -40px;
+    left: 21px;
   }
-  
- 
-  label {
-    display: flex;
-    font-weight: 400;
+  display: flex;
+  position: static;
+  padding: 10px 20px;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  z-index: 200;
+
+  &_legend {
+    @media (max-width: 768px) {
+      display: none;
+    }
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 600;
     font-size: 12px;
-    height: 40px;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    cursor: pointer;
-  
-    &:hover {
-      background-color: #F1FCFF;
+  }
+
+  &_list {
+    @media (max-width: 768px) {
+      display: none;
+    }
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+
+    &.visible {
+      display: block;
+      z-index: 200;
     }
   }
-  
-  input {
-    height: 20px;
-    width: 20px;
+
+  &_button {
+    @media (min-width: 768px) {
+      display: none;
+    }
+    border: none;
     cursor: pointer;
+    background-color: #ffffff;
+    position: relative;
+    &:after {
+      content: ' ▼';
+    }
   }
-  
+}
+
+label {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f1fcff;
+  }
+}
+
+input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}

@@ -1,24 +1,23 @@
 body {
-    background-color: #F3F7FA;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600; 
-    font-size: 14px; 
-    color: #4A4A4A;
+  background-color: #f3f7fa;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4a4a4a;
 }
 .main {
-    @media (max-width: 768px) {
-        justify-content: start;
-    }
-    display: flex;
-    column-gap: 20px;
-    justify-content: center;
-    margin: 0 16px;
-    position: relative;
+  @media (max-width: 768px) {
+    justify-content: start;
+  }
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  margin: 0 16px;
+  position: relative;
 }
 
 .logo {
-    display: block;
-    margin: 0 auto;
-    padding: 50px 0;
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0;
 }
-
